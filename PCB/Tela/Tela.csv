@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+"680uF","C1","Capacitor_SMD:CP_Elec_10x10.5",""
+"220uF","C2","Capacitor_SMD:CP_Elec_6.3x5.4",""
+"D_Schottky","D1","Diode_SMD:D_SMB",""
+"AG12864E","DS1","Display:AG12864E",""
+"Conn_01x04_Female","J1","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal",""
+"Micro_SD_Card","J2","Connector_Card:microSD_HC_Hirose_DM3D-SF",""
+"33uH","L1","Inductor_SMD:L_12x12mm_H8mm",""
+"LM2596S-5","U1","Package_TO_SOT_SMD:TO-263-5_TabPin3","C347421"
+"ESP32","U2","Library:ESP32_DevKit",""
