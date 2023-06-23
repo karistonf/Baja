@@ -26,4 +26,4 @@ Além das placas gerais, haverá uma segunda placa PCB, chamamos ela de placa pr
 # Adicionar
 
 # Feito
-*Can transmissor
+* Can transmissor
