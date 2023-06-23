@@ -22,6 +22,7 @@ Além das placas gerais, haverá uma segunda placa PCB, chamamos ela de placa pr
 
 # Imagem da placa geral
 Por enquanto é um esboço
+
 ![alt text](https://github.com/karistonf/Baja2023/blob/master/Imagens/placa_geral_1.png?raw=true)
 
 # Imagem da placa principal
