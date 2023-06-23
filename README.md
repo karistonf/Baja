@@ -1,10 +1,29 @@
-# Baja2023
-Projeto Baja SAE UEM - Equipe Capibaja
+## Baja2023
+#Projeto Baja SAE UEM - Equipe Capibaja
+O Projeto Capibaja é um projeto acadêmico que visa a construção de um carro off-road monoposto movido a gasolina. A parte elétrica do veículo é responsável pela coleta de dados do carro e pela interface com o piloto, incluindo o monitoramento de velocidade e rodagem, bem como a saúde dos demais componentes do veículo. Não cabe a elétrica a fabricação de injeção eletrônica.
 
+#Capacidades e objetivos do projeto
+Coleta de dados
+*Velocidade (individual por roda)
+*Rodagem
+*Temperatura CVC
+*Coordenadas de GPS
+
+#Construção
+
+No projeto Capibaja, adotamos uma abordagem descentralizada para a coleta de dados, utilizando várias pequenas placas denominadas "placas gerais" (você pode obter mais informações sobre elas nos diretórios deste commit). Cada sensor é conectado a um microcontrolador, que por sua vez possui acesso à rede CAN de todo o veículo. Essas placas gerais são específicas para cada sensor e têm a função de ler os dados do sensor e transmitir seu valor na rede CAN.
+
+Além das placas gerais, haverá uma segunda placa PCB, chamamos ela de placa principal, acessível ao piloto. Essa placa contará com uma tela e botões, servindo como interface para exibir os dados do carro em tempo real.
+
+#Imagem da placa principal
 ![alt text](https://github.com/karistonf/Baja2023/blob/master/Imagens/Captura%20de%20tela%20de%202023-06-22%2023-47-05.png?raw=true)
 
 #À fazer
 *Corrigir footprint SD Card, Display 128x64
+*Colocar os botões no lado correto
+
 
 #Adicionar
+
+#Feito
 *Can transmissor
