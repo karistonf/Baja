@@ -20,6 +20,10 @@ No projeto Capibaja, adotamos uma abordagem descentralizada para a coleta de dad
 
 Além das placas gerais, haverá uma segunda placa PCB, chamamos ela de placa principal, acessível ao piloto. Essa placa contará com uma tela e botões, servindo como interface para exibir os dados do carro em tempo real.
 
+# Imagem da placa geral
+Por enquanto é um esboço
+![alt text](https://github.com/karistonf/Baja2023/blob/master/Imagens/placa_geral_1.png?raw=true)
+
 # Imagem da placa principal
 ![alt text](https://github.com/karistonf/Baja2023/blob/master/Imagens/Captura%20de%20tela%20de%202023-06-22%2023-47-05.png?raw=true)
 
