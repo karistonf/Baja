@@ -1197,7 +1197,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_PTS645" (layer "B.Cu")
     (tedit 5A02FC95) (tstamp 0320a7ca-5a09-4522-8e22-9b5db9b3f87c)
-    (at 80.026 78.123 180)
+    (at 212.09 79.502 180)
     (descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
     (tags "SPST Button Switch")
     (property "Sheetfile" "Tela.kicad_sch")
@@ -1250,7 +1250,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_PTS645" (layer "B.Cu")
     (tedit 5A02FC95) (tstamp 2dac66e6-9856-484f-804a-fa02d22acad8)
-    (at 80.026 60.343 180)
+    (at 212.09 61.722 180)
     (descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
     (tags "SPST Button Switch")
     (property "Sheetfile" "Tela.kicad_sch")
@@ -1303,7 +1303,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_PTS645" (layer "B.Cu")
     (tedit 5A02FC95) (tstamp 69d2736b-ed93-46a1-8a95-51a3bdedb5c1)
-    (at 68.85 69.463 180)
+    (at 200.914 70.842 180)
     (descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
     (tags "SPST Button Switch")
     (property "Sheetfile" "Tela.kicad_sch")
@@ -1356,7 +1356,7 @@
 
   (footprint "Display:AG12864E" (layer "B.Cu")
     (tedit 5A02FE80) (tstamp f913e180-a2ac-4ba1-b1e8-0b08fcaa55fb)
-    (at 141.194 178.9435 90)
+    (at 178.786 106.2995 90)
     (descr "STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php")
     (tags "AG12864E Graphics Display 128x64 Ampire")
     (property "Sheetfile" "Tela.kicad_sch")
@@ -1480,7 +1480,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_PTS645" (layer "B.Cu")
     (tedit 5A02FC95) (tstamp fc2b6c68-78d7-4ed5-ba98-5b0556851f7b)
-    (at 90.948 69.487 180)
+    (at 223.012 70.866 180)
     (descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
     (tags "SPST Button Switch")
     (property "Sheetfile" "Tela.kicad_sch")
@@ -1553,7 +1553,7 @@
   (gr_text "CAN" (at 129.556 90.569) (layer "F.SilkS") (tstamp 51530d95-6deb-48f1-995f-a28a3573d7b5)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "+12V\n\n\nCan -\n\n\nCan +\n\n\nGnd" (at 112.284 85.743) (layer "F.SilkS") (tstamp 6266b248-8b83-4de4-9d59-3d13fde47c91)
+  (gr_text "+12V\n\n\nCan -\n\n\nCan +\n\n\nGnd" (at 111.76 85.743) (layer "F.SilkS") (tstamp 6266b248-8b83-4de4-9d59-3d13fde47c91)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
   (gr_text "ESP32" (at 184.42 103.523) (layer "F.SilkS") (tstamp d74563f3-e4ff-48cc-abd6-55070aaa1b92)
