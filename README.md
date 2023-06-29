@@ -5,7 +5,7 @@ O Projeto Capibaja é um projeto acadêmico que visa a construção de um carro 
 
 # Capacidades e objetivos do projeto
 ## Coleta de dados
-* Velocidade (individual por roda)
+* Velocidade (individual por roda) 
 * Rodagem
 * Temperatura CVT e motor
 * Coordenadas de GPS
