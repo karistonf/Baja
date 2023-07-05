@@ -1,4 +1,4 @@
-# Baja2023
+# Baja
 
 ## Projeto Baja SAE UEM - Equipe Capibaja
 O Projeto Capibaja é um projeto acadêmico que visa a construção de um carro off-road monoposto movido a gasolina. A parte elétrica do veículo é responsável pela coleta de dados do carro e pela interface com o piloto, incluindo o monitoramento de velocidade e rodagem, bem como a saúde dos demais componentes do veículo. Não cabe a elétrica a fabricação de injeção eletrônica.
