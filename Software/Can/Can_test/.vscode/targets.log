@@ -1,0 +1,2188 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Nov 15 20:07:04 2023
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 117)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# makefile (from 'Makefile', line 199)
+LIBDIR = 
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = openssh
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/quaristo
+# environment
+WINDOWPATH = 2
+# makefile (from 'Makefile', line 198)
+LIBS = -lc -lm -lnosys 
+# makefile (from 'Makefile', line 156)
+C_INCLUDES = -ICore/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -IMiddlewares/Third_Party/FreeRTOS/Source/include -IMiddlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -IMiddlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/CMSIS/Include -IUSB_DEVICE/App -IUSB_DEVICE/Target -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
+# makefile (from 'Makefile', line 119)
+SZ = $(PREFIX)size
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 144)
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32F103xB -DSTM32F103xB 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/quaristo/Documentos/Ingamed/Firmware-Aquecedor/Aquecedor_de_tubos_falcon
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+ 
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/home/quaristo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/quaristo/.config/Code/CachedData/704ed70d4fd1c6bd6342c436f1ede30d1cff4710
+# makefile (from 'Makefile', line 141)
+AS_DEFS = 
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=882940e8ec80b420a4897a6f65551076
+# makefile
+CURDIR := /home/quaristo/Documentos/Ingamed/Firmware-Aquecedor/Aquecedor_de_tubos_falcon
+# makefile (from 'Makefile', line 121)
+HEX = $(CP) -O ihex
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile', line 192)
+LDSCRIPT = STM32F103C8Tx_FLASH.ld
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = file:///home/quaristo/.vscode/extensions/ms-ceintl.vscode-language-pack-pt-br-1.77.2023041209/translations/extensions/vscode.json-language-features.i18n.json
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'build/xformatc.d', line 1)
+MAKEFILE_LIST := Makefile build/GFX_FUNCTIONS.d build/OneWire.d build/PID.d build/Paginar_flash.d build/ST7735.d build/cmsis_os2.d build/croutine.d build/eeprom.d build/event_groups.d build/fonts.d build/freertos.d build/funcoes.d build/heap_4.d build/imagens_logos.d build/list.d build/main.d build/port.d build/queue.d build/rtos.d build/startup_stm32f103xb.d build/stm32f1xx_hal.d build/stm32f1xx_hal_adc.d build/stm32f1xx_hal_adc_ex.d build/stm32f1xx_hal_cortex.d build/stm32f1xx_hal_dma.d build/stm32f1xx_hal_exti.d build/stm32f1xx_hal_flash.d build/stm32f1xx_hal_flash_ex.d build/stm32f1xx_hal_gpio.d build/stm32f1xx_hal_gpio_ex.d build/stm32f1xx_hal_i2c.d build/stm32f1xx_hal_msp.d build/stm32f1xx_hal_pcd.d build/stm32f1xx_hal_pcd_ex.d build/stm32f1xx_hal_pwr.d build/stm32f1xx_hal_rcc.d build/stm32f1xx_hal_rcc_ex.d build/stm32f1xx_hal_rtc.d build/stm32f1xx_hal_rtc_ex.d build/stm32f1xx_hal_spi.d build/stm32f1xx_hal_tim.d build/stm32f1xx_hal_tim_ex.d build/stm32f1xx_hal_uart.d build/stm32f1xx_it.d build/stm32f1xx_ll_usb.d build/stream_buffer.d build/system_stm32f1xx.d build/tasks.d build/timers.d build/usb_device.d build/usbd_cdc.d build/usbd_cdc_if.d build/usbd_conf.d build/usbd_core.d build/usbd_ctlreq.d build/usbd_desc.d build/usbd_ioreq.d build/xformatc.d
+# makefile (from 'Makefile', line 172)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 30641
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 152)
+AS_INCLUDES = -ICore/Inc
+# makefile (from 'Makefile', line 118)
+CP = $(PREFIX)objcopy
+# environment
+SESSION_MANAGER = local/quaristoNitro:@/tmp/.ICE-unix/3149,unix/quaristoNitro:/tmp/.ICE-unix/3149
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=882940e8ec80b420a4897a6f65551076
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","osLocale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"06f24fda497f75a58537dbf2f694f6d1.pt-br","_translationsConfigFile":"/home/quaristo/.config/Code/clp/06f24fda497f75a58537dbf2f694f6d1.pt-br/tcf.json","_cacheRoot":"/home/quaristo/.config/Code/clp/06f24fda497f75a58537dbf2f694f6d1.pt-br","_resolvedLanguagePackCoreLocation":"/home/quaristo/.config/Code/clp/06f24fda497f75a58537dbf2f694f6d1.pt-br/704ed70d4fd1c6bd6342c436f1ede30d1cff4710","_corruptedFile":"/home/quaristo/.config/Code/clp/06f24fda497f75a58537dbf2f694f6d1.pt-br/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/quaristo/.local/bin:/home/quaristo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = pt_BR:pt:en
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 107)
+PREFIX = arm-none-eabi-
+# environment
+INVOCATION_ID = 1589af357d5c43509b9f9de014b526b3
+# environment
+USERNAME = quaristo
+# makefile (from 'Makefile', line 128)
+CPU = -mcpu=cortex-m3
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from 'Makefile', line 213)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = quaristo
+# makefile (from 'Makefile', line 25)
+OPT = -Og
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 3149
+# environment
+DISPLAY = :1
+# environment
+USER = quaristo
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 200)
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# environment
+MANAGERPID = 2416
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# makefile (from 'Makefile', line 137)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# environment
+DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 30641
+# environment
+_ = /usr/share/code/code
+# makefile (from 'Makefile', line 122)
+BIN = $(CP) -O binary -S
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 183)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)" -specs=nano.specs -specs=nosys.specs 
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+JOURNAL_STREAM = 8:35840
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 32)
+BUILD_DIR = build
+# environment
+HOME = /home/quaristo
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4389084e-1.77-main.sock
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 38)
+C_SOURCES = Core/Src/main.c Core/Src/freertos.c Core/Src/stm32f1xx_it.c Core/Src/stm32f1xx_hal_msp.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c Core/Src/system_stm32f1xx.c Core/Src/fonts.c Core/Src/funcoes.c Core/Src/GFX_FUNCTIONS.c Core/Src/imagens_logos.c Core/Src/OneWire.c Core/Src/ST7735.c Core/Src/eeprom.c Core/Src/rtos.c Core/Src/Paginar_flash.c Core/Src/PID.c Middlewares/Third_Party/FreeRTOS/Source/croutine.c Middlewares/Third_Party/FreeRTOS/Source/event_groups.c Middlewares/Third_Party/FreeRTOS/Source/list.c Middlewares/Third_Party/FreeRTOS/Source/queue.c Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c Middlewares/Third_Party/FreeRTOS/Source/tasks.c Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c Core/Src/xformatc.c Middlewares/Third_Party/FreeRTOS/Source/timers.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c USB_DEVICE/App/usb_device.c USB_DEVICE/App/usbd_desc.c USB_DEVICE/App/usbd_cdc_if.c USB_DEVICE/Target/usbd_conf.c Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 16)
+TARGET = Aquecedor_de_tubos_falcon
+# makefile (from 'Makefile', line 100)
+ASM_SOURCES = startup_stm32f103xb.s
+# makefile (from 'Makefile', line 23)
+DEBUG = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 116)
+CC = $(PREFIX)gcc
+# environment
+QTWEBENGINE_DICTIONARIES_PATH = /usr/share/hunspell-bdic/
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# variable set hash-table stats:
+# Load=125/1024=12%, Rehash=0, Collisions=8/311=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# USB_DEVICE/App (device 2051, inode 27668826): 8 files, no impossibilities.
+# Middlewares/Third_Party/FreeRTOS/Source (device 2051, inode 27668780): 14 files, no impossibilities.
+# Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src (device 2051, inode 27668761): 4 files, no impossibilities.
+# Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang (device 2051, inode 27668813): 7 files, no impossibilities.
+# build (device 2051, inode 27262998): 179 files, no impossibilities.
+# . (device 2051, inode 27298860): 15 files, no impossibilities.
+# USB_DEVICE/Target (device 2051, inode 27668833): 4 files, no impossibilities.
+# Middlewares/ST/STM32_USB_Device_Library/Core/Src (device 2051, inode 27668772): 7 files, no impossibilities.
+# Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 (device 2051, inode 27668810): 4 files, no impossibilities.
+# Core/Src (device 2051, inode 27298903): 19 files, no impossibilities.
+# Drivers/STM32F1xx_HAL_Driver/Src (device 2051, inode 27668691): 63 files, no impossibilities.
+# Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 (device 2051, inode 27668781): 6 files, no impossibilities.
+
+# 330 files, no impossibilities in 12 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile | build
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/%.o: %.s Makefile | build
+#  recipe to execute (from 'Makefile', line 220):
+	$(AS) -c $(CFLAGS) $< -o $@
+
+build/%.hex: build/%.elf | build
+#  recipe to execute (from 'Makefile', line 227):
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  recipe to execute (from 'Makefile', line 230):
+	$(BIN) $< $@	
+	
+
+# 4 implicit rules, 0 (0.0%) terminal.
+# Files
+
+build/Aquecedor_de_tubos_falcon.elf: build/main.o build/freertos.o build/stm32f1xx_it.o build/stm32f1xx_hal_msp.o build/stm32f1xx_hal_gpio_ex.o build/stm32f1xx_hal_adc.o build/stm32f1xx_hal_adc_ex.o build/stm32f1xx_hal.o build/stm32f1xx_hal_rcc.o build/stm32f1xx_hal_rcc_ex.o build/stm32f1xx_hal_gpio.o build/stm32f1xx_hal_dma.o build/stm32f1xx_hal_cortex.o build/stm32f1xx_hal_pwr.o build/stm32f1xx_hal_flash.o build/stm32f1xx_hal_flash_ex.o build/stm32f1xx_hal_exti.o build/stm32f1xx_hal_rtc.o build/stm32f1xx_hal_rtc_ex.o build/stm32f1xx_hal_spi.o build/stm32f1xx_hal_tim.o build/stm32f1xx_hal_tim_ex.o build/stm32f1xx_hal_uart.o build/system_stm32f1xx.o build/fonts.o build/funcoes.o build/GFX_FUNCTIONS.o build/imagens_logos.o build/OneWire.o build/ST7735.o build/eeprom.o build/rtos.o build/Paginar_flash.o build/PID.o build/croutine.o build/event_groups.o build/list.o build/queue.o build/stream_buffer.o build/tasks.o build/cmsis_os2.o build/heap_4.o build/port.o build/xformatc.o build/timers.o build/stm32f1xx_hal_i2c.o build/stm32f1xx_hal_pcd.o build/stm32f1xx_hal_pcd_ex.o build/stm32f1xx_ll_usb.o build/usb_device.o build/usbd_desc.o build/usbd_cdc_if.o build/usbd_conf.o build/usbd_core.o build/usbd_ctlreq.o build/usbd_ioreq.o build/usbd_cdc.o build/startup_stm32f103xb.o Makefile
+#  Implicit rule search has not been done.
+#  Last modified 2023-11-15 20:00:50.497351585
+#  File has been updated.
+#  Successfully updated.
+ 
+#  recipe to execute (from 'Makefile', line 223):
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+
+Core/Inc/Paginar_flash.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/tasks.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-10-19 14:31:40.163921263
+#  File has been updated.
+#  Successfully updated.
+
+USB_DEVICE/App/usbd_desc.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.967314508
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.967314508
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+USB_DEVICE/App/usbd_cdc_if.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/port.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:46.281325834
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/system_stm32f1xx.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.551315744
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/freertos.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.141270009
+#  File has been updated.
+#  Successfully updated.
+
+USB_DEVICE/App/usbd_cdc_if.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_i2c.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:46.889329548
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/main.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.975314484
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/event_groups.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.465314743
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+build/freertos.o: Core/Src/freertos.c Makefile Core/Src/freertos.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'freertos'
+#  Last modified 2023-11-15 20:00:37.145270033
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/stm32f1xx_hal.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal'
+#  Last modified 2023-11-15 20:00:37.76527382
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_gpio.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_gpio'
+#  Last modified 2023-11-15 20:00:38.077275726
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+ 
+
+# Not a target:
+Core/Src/ST7735.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.547315756
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_adc.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.469272012
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_rtc.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.741279781
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.975314484
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_adc_ex.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.673273258
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_pwr.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_pwr'
+#  Last modified 2023-11-15 20:00:38.337277314
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+build/usbd_core.o: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c Makefile Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h USB_DEVICE/Target/usbd_conf.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usbd_core'
+#  Last modified 2023-11-15 20:00:49.893347896
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_cortex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_cortex'
+#  Last modified 2023-11-15 20:00:38.269276898
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Core/Inc/GFX_FUNCTIONS.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/eeprom.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_msp.o: Core/Src/stm32f1xx_hal_msp.c Makefile Core/Src/stm32f1xx_hal_msp.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_msp'
+#  Last modified 2023-11-15 20:00:37.313271059
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/GFX_FUNCTIONS.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:43.609309514
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+USB_DEVICE/App/usbd_desc.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_flash.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.405277729
+ 
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/funcoes.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/rtos.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.245313399
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+startup_stm32f103xb.s:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-21 16:43:36.28569448
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/rtos.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-10-24 10:52:19.446128632
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/defines.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-24 11:18:12.0718475
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_spi.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:39.101281981
+#  File has been updated.
+#  Successfully updated.
+
+build/Aquecedor_de_tubos_falcon.bin: build/Aquecedor_de_tubos_falcon.elf | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Aquecedor_de_tubos_falcon'
+#  Last modified 2023-11-15 20:00:50.685352733
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(BIN) $< $@	
+	
+
+build/usbd_ctlreq.o: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c Makefile Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h USB_DEVICE/Target/usbd_conf.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usbd_ctlreq'
+#  Last modified 2023-11-15 20:00:50.045348824
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Core/Src/stm32f1xx_hal_msp.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.551315744
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.967314508
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+USB_DEVICE/App/usb_device.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/Paginar_flash.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.547315756
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/usbd_cdc_if.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.673346552
+#  File has been updated.
+#  Successfully updated.
+
+build/imagens_logos.o: Core/Src/imagens_logos.c Makefile Core/Src/imagens_logos.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'imagens_logos'
+#  Last modified 2023-11-15 20:00:43.693310027
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_pcd.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_pcd'
+#  Last modified 2023-11-15 20:00:49.22934384
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+ 
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+build/usbd_cdc.o: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c Makefile Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h USB_DEVICE/Target/usbd_conf.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usbd_cdc'
+#  Last modified 2023-11-15 20:00:50.221349899
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-17 10:18:50.872485589
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/queue.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/usbd_desc.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.601346112
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_i2c.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_i2c'
+#  Last modified 2023-11-15 20:00:48.977342301
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/funcoes.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:43.457308586
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/eeprom.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-21 09:52:58.774174485
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stream_buffer.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.973317845
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.8353149
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+build/Aquecedor_de_tubos_falcon.hex: build/Aquecedor_de_tubos_falcon.elf | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Aquecedor_de_tubos_falcon'
+#  Last modified 2023-11-15 20:00:50.681352708
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 227):
+	$(HEX) $< $@
+	
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2023-07-14 10:40:35.831314912
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/OneWire.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_tim.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_tim'
+#  Last modified 2023-11-15 20:00:42.117300402
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Core/Src/PID.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-12 22:40:19.878429351
+#  File has been updated.
+#  Successfully updated.
+
+build/tasks.o: Middlewares/Third_Party/FreeRTOS/Source/tasks.c Makefile Middlewares/Third_Party/FreeRTOS/Source/tasks.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'tasks'
+#  Last modified 2023-11-15 20:00:45.88932344
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Core/Inc/ST7735.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_flash_ex.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.50527834
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Include/core_cm3.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.843314877
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_tim_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_tim_ex'
+#  Last modified 2023-11-15 20:00:42.541302991
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+USB_DEVICE/Target/usbd_conf.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/xformatc.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+build/timers.o: Middlewares/Third_Party/FreeRTOS/Source/timers.c Makefile Middlewares/Third_Party/FreeRTOS/Source/timers.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'timers'
+#  Last modified 2023-11-15 20:00:46.497327153
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/stm32f1xx_hal_rtc.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_rtc'
+ 
+#  Last modified 2023-11-15 20:00:38.849280441
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/xformatc.o: Core/Src/xformatc.c Makefile Core/Src/xformatc.c Core/Inc/xformatc.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'xformatc'
+#  Last modified 2023-11-15 20:00:46.373326397
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+USB_DEVICE/Target/usbd_conf.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/usbd_core.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.877347798
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_rcc_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_rcc_ex'
+#  Last modified 2023-11-15 20:00:37.997275237
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 239):
+	-rm -fR $(BUILD_DIR)
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_cortex.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.249276777
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/funcoes.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-09-14 15:34:00.854643051
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.967314508
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+build/usb_device.o: USB_DEVICE/App/usb_device.c Makefile USB_DEVICE/App/usb_device.c USB_DEVICE/App/usb_device.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h USB_DEVICE/Target/usbd_conf.h Core/Inc/main.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h USB_DEVICE/App/usbd_desc.h Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h USB_DEVICE/App/usbd_cdc_if.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usb_device'
+#  Last modified 2023-11-15 20:00:49.529345672
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/stm32f1xx_hal_rtc_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_rtc_ex'
+#  Last modified 2023-11-15 20:00:38.925280905
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/timers.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/OneWire.d:
+ 
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:43.821310809
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+build/port.o: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c Makefile Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'port'
+#  Last modified 2023-11-15 20:00:46.297325932
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+build/heap_4.o: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c Makefile Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'heap_4'
+#  Last modified 2023-11-15 20:00:46.245325614
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/stm32f1xx_hal_exti.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_exti'
+#  Last modified 2023-11-15 20:00:38.625279073
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/croutine.o: Middlewares/Third_Party/FreeRTOS/Source/croutine.c Makefile Middlewares/Third_Party/FreeRTOS/Source/croutine.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'croutine'
+#  Last modified 2023-11-15 20:00:44.405314376
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.967314508
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.967314508
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_dma.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.149276165
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/list.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Include/cmsis_compiler.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.839314888
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/FreeRTOSConfig.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/usbd_conf.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.765347113
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/xformatc.c:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2023-07-14 10:40:35.551315744
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_uart.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_uart'
+#  Last modified 2023-11-15 20:00:43.189306949
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Core/Inc/imagens_logos.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-22 10:54:43.297794925
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_gpio.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.061275628
+#  File has been updated.
+#  Successfully updated.
+
+build/eeprom.o: Core/Src/eeprom.c Makefile Core/Src/eeprom.c Core/Inc/eeprom.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/rtos.h Core/Inc/main.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'eeprom'
+#  Last modified 2023-11-15 20:00:44.089312446
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/stm32f1xx_hal_rcc_ex.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.989275188
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/system_stm32f1xx.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:43.241307267
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/usb_device.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.525345648
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/PID.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_usb.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.409344939
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.975314484
+#  File has been updated.
+#  Successfully updated.
+
+build/queue.o: Middlewares/Third_Party/FreeRTOS/Source/queue.c Makefile Middlewares/Third_Party/FreeRTOS/Source/queue.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'queue'
+#  Last modified 2023-11-15 20:00:44.86931721
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Core/Inc/rtos.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/imagens_logos.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-10-19 11:00:00.750833296
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/eeprom.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.081312397
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/queue.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.657315915
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/xformatc.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:46.353326274
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_adc.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_adc'
+#  Last modified 2023-11-15 20:00:37.589272745
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/usbd_conf.o: USB_DEVICE/Target/usbd_conf.c Makefile USB_DEVICE/Target/usbd_conf.c Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h USB_DEVICE/Target/usbd_conf.h Core/Inc/main.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usbd_conf'
+#  Last modified 2023-11-15 20:00:49.793347285
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/cmsis_os2.o: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c Makefile Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'cmsis_os2'
+#  Last modified 2023-11-15 20:00:46.189325272
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.975314484
+#  File has been updated.
+#  Successfully updated.
+
+build/system_stm32f1xx.o: Core/Src/system_stm32f1xx.c Makefile Core/Src/system_stm32f1xx.c Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'system_stm32f1xx'
+#  Last modified 2023-11-15 20:00:43.249307315
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/usbd_ctlreq.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.997348531
+#  File has been updated.
+#  Successfully updated.
+
+all: build/Aquecedor_de_tubos_falcon.elf build/Aquecedor_de_tubos_falcon.hex build/Aquecedor_de_tubos_falcon.bin
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+build/GFX_FUNCTIONS.o: Core/Src/GFX_FUNCTIONS.c Makefile Core/Src/GFX_FUNCTIONS.c Core/Inc/ST7735.h Core/Inc/fonts.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'GFX_FUNCTIONS'
+#  Last modified 2023-11-15 20:00:43.64130971
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/Paginar_flash.o: Core/Src/Paginar_flash.c Makefile Core/Src/Paginar_flash.c Core/Inc/Paginar_flash.h Core/Inc/eeprom.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/rtos.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Paginar_flash'
+#  Last modified 2023-11-15 20:00:44.357314083
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+ 
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_adc_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_adc_ex'
+#  Last modified 2023-11-15 20:00:37.69327338
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build:
+#  Implicit rule search has not been done.
+#  Last modified 2023-11-15 20:00:50.685352733
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 233):
+	mkdir $@		
+
+build/usbd_ioreq.o: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c Makefile Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h USB_DEVICE/Target/usbd_conf.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usbd_ioreq'
+#  Last modified 2023-11-15 20:00:50.117349264
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/usbd_cdc.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:50.201349777
+#  File has been updated.
+#  Successfully updated.
+
+build/fonts.o: Core/Src/fonts.c Makefile Core/Src/fonts.c Core/Inc/fonts.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'fonts'
+#  Last modified 2023-11-15 20:00:43.293307584
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/stm32f1xx_hal.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.753273747
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/stm32f1xx_hal_conf.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_exti.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.613279
+#  File has been updated.
+#  Successfully updated.
+
+build/event_groups.o: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c Makefile Middlewares/Third_Party/FreeRTOS/Source/event_groups.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'event_groups'
+#  Last modified 2023-11-15 20:00:44.505314987
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Core/Src/fonts.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.547315756
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+build/usbd_desc.o: USB_DEVICE/App/usbd_desc.c Makefile USB_DEVICE/App/usbd_desc.c Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h USB_DEVICE/Target/usbd_conf.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h USB_DEVICE/App/usbd_desc.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usbd_desc'
+#  Last modified 2023-11-15 20:00:49.609346161
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/stm32f1xx_hal_rcc.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.861274407
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_gpio_ex.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.361271352
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/timers.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:46.44932686
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/fonts.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:43.269307438
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.025269301
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_tim.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:39.897286842
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.975314484
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/Paginar_flash.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.353314059
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/croutine.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.401314352
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/croutine.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_tim_ex.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:42.277301379
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2023-07-14 10:40:35.967314508
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.8353149
+#  File has been updated.
+#  Successfully updated.
+
+build/list.o: Middlewares/Third_Party/FreeRTOS/Source/list.c Makefile Middlewares/Third_Party/FreeRTOS/Source/list.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'list'
+#  Last modified 2023-11-15 20:00:44.541315207
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.975314484
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_rcc.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_rcc'
+#  Last modified 2023-11-15 20:00:37.929274822
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/stm32f1xx_hal_pcd_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_pcd_ex'
+#  Last modified 2023-11-15 20:00:49.281344158
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/cmsis_os2.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:46.057324467
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-10-19 10:48:15.49087562
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/heap_4.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:46.229325517
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_flash_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_flash_ex'
+#  Last modified 2023-11-15 20:00:38.545278584
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+USB_DEVICE/App/usb_device.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+build/ST7735.o: Core/Src/ST7735.c Makefile Core/Src/ST7735.c Core/Inc/ST7735.h Core/Inc/fonts.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ST7735'
+#  Last modified 2023-11-15 20:00:43.993311859
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+ 
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/stm32f1xx_hal_dma.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_dma'
+#  Last modified 2023-11-15 20:00:38.18927641
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/usbd_ioreq.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:50.109349215
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/ST7735.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:43.977311762
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/imagens_logos.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:43.673309905
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+build/rtos.o: Core/Src/rtos.c Makefile Core/Src/rtos.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Core/Inc/rtos.h Core/Inc/funcoes.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'rtos'
+#  Last modified 2023-11-15 20:00:44.301313741
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/stm32f1xx_hal_msp.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.301270986
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/fonts.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+build/funcoes.o: Core/Src/funcoes.c Makefile Core/Src/funcoes.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'funcoes'
+#  Last modified 2023-11-15 20:00:43.485308757
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/tasks.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:45.305319873
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Include/cmsis_gcc.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.839314888
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_it.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:37.213270449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.979314473
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_flash.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_flash'
+#  Last modified 2023-11-15 20:00:38.4332779
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Core/Src/stm32f1xx_it.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.551315744
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_pwr.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.32527724
+#  File has been updated.
+#  Successfully updated.
+
+build/usbd_cdc_if.o: USB_DEVICE/App/usbd_cdc_if.c Makefile USB_DEVICE/App/usbd_cdc_if.c USB_DEVICE/App/usbd_cdc_if.h Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h USB_DEVICE/Target/usbd_conf.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'usbd_cdc_if'
+#  Last modified 2023-11-15 20:00:49.677346576
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/stm32f1xx_hal_spi.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_spi'
+#  Last modified 2023-11-15 20:00:39.573284863
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/list.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.533315158
+#  File has been updated.
+#  Successfully updated.
+
+build/stream_buffer.o: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c Makefile Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stream_buffer'
+#  Last modified 2023-11-15 20:00:45.077318481
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/PID.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:44.377314205
+#  File has been updated.
+#  Successfully updated.
+
+build/PID.o: Core/Src/PID.c Makefile Core/Src/PID.c Core/Inc/PID.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'PID'
+#  Last modified 2023-11-15 20:00:44.385314254
+#  File has been updated.
+ 
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.983314461
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/stm32f1xx_it.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_pcd_ex.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.273344109
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/GFX_FUNCTIONS.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.543315768
+#  File has been updated.
+#  Successfully updated.
+
+build/main.o: Core/Src/main.c Makefile Core/Src/main.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h USB_DEVICE/App/usb_device.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h USB_DEVICE/Target/usbd_conf.h USB_DEVICE/App/usbd_cdc_if.h Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2023-11-15 20:00:37.069269569
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.967314508
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_hal_gpio_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_hal_gpio_ex'
+#  Last modified 2023-11-15 20:00:37.365271377
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/startup_stm32f103xb.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:50.233349972
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/OneWire.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.547315756
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_hal_uart.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:42.713304042
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+ 
+
+build/stm32f1xx_it.o: Core/Src/stm32f1xx_it.c Makefile Core/Src/stm32f1xx_it.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h Core/Inc/defines.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/funcoes.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Core/Inc/PID.h Core/Inc/OneWire.h Core/Inc/imagens_logos.h Core/Inc/ST7735.h Core/Inc/fonts.h Core/Inc/GFX_FUNCTIONS.h Core/Inc/xformatc.h Core/Inc/eeprom.h Core/Inc/main.h Core/Inc/rtos.h Core/Inc/stm32f1xx_it.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_it'
+#  Last modified 2023-11-15 20:00:37.221270498
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Drivers/CMSIS/Include/cmsis_version.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.839314888
+#  File has been updated.
+#  Successfully updated.
+
+Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.987314449
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/freertos.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.547315756
+#  File has been updated.
+#  Successfully updated.
+
+build/OneWire.o: Core/Src/OneWire.c Makefile Core/Src/OneWire.c Core/Inc/OneWire.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'OneWire'
+#  Last modified 2023-11-15 20:00:43.893311249
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/stm32f1xx_hal_rtc_ex.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:38.913280832
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_usb.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_usb'
+#  Last modified 2023-11-15 20:00:49.457345232
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.971314496
+#  File has been updated.
+#  Successfully updated.
+
+build/startup_stm32f103xb.o: startup_stm32f103xb.s Makefile startup_stm32f103xb.s | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'startup_stm32f103xb'
+#  Last modified 2023-11-15 20:00:50.233349972
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 220):
+	$(AS) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+build/stm32f1xx_hal_pcd.d:
+#  Implicit rule search has been done.
+#  Last modified 2023-11-15 20:00:49.121343181
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-07-14 10:40:35.991314437
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=257/1024=25%, Rehash=0, Collisions=800/5743=14%
+# VPATH Search Paths
+
+vpath %.c Core/Src:Drivers/STM32F1xx_HAL_Driver/Src:Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src:Middlewares/ST/STM32_USB_Device_Library/Core/Src:Middlewares/Third_Party/FreeRTOS/Source:Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2:Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3:Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang:USB_DEVICE/App:USB_DEVICE/Target
+
+# 1 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 2 (1) / strings = 640 / storage = 14965 B / avg = 23 B
+ 
+# current buf: size = 8162 B / used = 6814 B / count = 262 / avg = 26 B
+# other used: total = 8151 B / count = 378 / avg = 21 B
+# other free: total = 11 B / max = 11 B / min = 11 B / avg = 11 B
+
+# strcache performance: lookups = 7545 / hit rate = 91%
+# hash-table stats:
+# Load=640/8192=8%, Rehash=0, Collisions=483/7545=6%
+# Finished Make data base on Wed Nov 15 20:07:04 2023
+
+ 

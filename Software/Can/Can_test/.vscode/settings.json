@@ -1,0 +1,14 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "freertos.h": "c",
+        "imagens_logos.h": "c",
+        "xformatc.h": "c",
+        "stdio.h": "c",
+        "freertosconfig.h": "c",
+        "main.h": "c",
+        "rtos.h": "c",
+        "usb_device.h": "c",
+        "pid.h": "c"
+    }
+}
