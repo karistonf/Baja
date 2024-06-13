@@ -75,6 +75,10 @@ fp-info-cache
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+
+# 3D pecas
+*.FCBak
+
 .tmp_versions/
 modules.order
 Module.symvers
