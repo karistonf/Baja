@@ -39,3 +39,6 @@ Essa será a placa que mostrará ao piloto as informações necessárias
 
 # Feito
 * Can transmissor
+
+
+[![Ver modelo 3D no Sketchfab](https://img.shields.io/badge/Ver%20Modelo%203D-Sketchfab-blue?style=for-the-badge&logo=sketchfab)](https://sketchfab.com/3d-models/bucha--sensor-temperatura-motor-baja-v-1-body-8e9ac87ca9e7477eb5828cdfb5dba526)
