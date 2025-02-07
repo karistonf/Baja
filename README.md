@@ -42,3 +42,13 @@ Essa será a placa que mostrará ao piloto as informações necessárias
 
 
 [![Ver modelo 3D no Sketchfab](https://img.shields.io/badge/Ver%20Modelo%203D-Sketchfab-blue?style=for-the-badge&logo=sketchfab)](https://sketchfab.com/3d-models/bucha--sensor-temperatura-motor-baja-v-1-body-8e9ac87ca9e7477eb5828cdfb5dba526)
+
+
+<iframe width="640" height="480"
+        src="https://sketchfab.com/models/8e9ac87ca9e7477eb5828cdfb5dba526/embed"
+        frameborder="0" allow="autoplay; fullscreen; xr-spatial-tracking"
+        allowfullscreen>
+</iframe>
+
+[🔗 Visualizar Modelo 3D Interativo](https://SEU_USUARIO.github.io/SEU_REPOSITORIO/)
+
